@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+  font-family: 'Righteous', cursive;
+}
+.react-icons {
+  display: flex;
+  align-self: center;
+}
