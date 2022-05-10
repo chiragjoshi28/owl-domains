@@ -11,6 +11,6 @@ ENV Varibale in React App ( Frontend Folder )
 ENV Variable in Smart Contract Folder 
 
     PRIVATE_KEY=
-    ALCHEMY_API_URL
+    ALCHEMY_API_URL=
     
 
