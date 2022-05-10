@@ -24,3 +24,7 @@ body{
       transform: rotate(450deg);
   }
 }
+
+.swal2-image {
+  margin: 0em auto 1em !important;
+}

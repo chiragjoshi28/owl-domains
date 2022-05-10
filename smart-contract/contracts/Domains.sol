@@ -46,7 +46,7 @@ contract Domains is ERC721URIStorage {
     // pure functions doesn't read and modify state
     function price(string calldata name) public pure returns(uint) {
         uint len = StringUtils.strlen(name);
-        require(len>3,"Domain name is invalid, please use atleast 3 characters");
+        // require(len>4,"Domain name is invalid, please use atleast 3 characters");
         if(len==3){
             return 5 * 10**17; // this equals to 0.5 Matic
         }else if(len==4){

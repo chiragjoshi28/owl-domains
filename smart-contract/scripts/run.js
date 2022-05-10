@@ -20,7 +20,7 @@ const main = async() => {
     console.log("Contract owner:", owner.address);
     
     //Let us get a domain
-    let txn = await domainContract.register("AbrakaDabra",{value:hre.ethers.utils.parseEther('25')});
+    let txn = await domainContract.register("AAA",{value:hre.ethers.utils.parseEther('25')});
     await txn.wait();   
     console.log("%s - Owner of Domain : AbrakaDabra",owner.address);
 
